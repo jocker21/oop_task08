@@ -11,14 +11,6 @@ class EthernetAdapter extends Device {
         this.mac = mac;
     }
 
-    public int getSpeed() {
-        return speed;
-    }
-
-    public String getMac() {
-        return mac;
-    }
-
     @Override
     public String toString() {
         return super.toString() + ", speed=" + speed + ", mac=" + mac;
